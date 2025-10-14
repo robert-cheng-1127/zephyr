@@ -179,6 +179,12 @@ manifest:
       path: modules/hal/ethos_u
       groups:
         - hal
+    - name: hal_focaltech
+      url: https://github.com/robert-cheng-1127/hal_focaltech.git
+      revision: a667cb48ee1f1ed039f6fb947a01589f70eb184f
+      path: modules/hal/focaltech
+      groups:
+        - hal
     - name: hal_gigadevice
       revision: 2994b7dde8b0b0fa9b9c0ccb13474b6a486cddc3
       path: modules/hal/gigadevice

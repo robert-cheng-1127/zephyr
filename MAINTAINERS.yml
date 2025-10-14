@@ -5498,6 +5498,12 @@ West:
   labels:
     - "platform: ARM"
 
+"West project: hal_focaltech":
+  status: odd fixes
+  files: []
+  labels:
+    - "platform: ARM"
+
 "West project: hal_gigadevice":
   status: maintained
   maintainers:
