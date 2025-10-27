@@ -19,6 +19,7 @@
 #include <stdint.h>
 #include <zephyr/toolchain.h>
 #include <zephyr/linker/sections.h>
+#include <ft9001.h>
 
 #ifdef __cplusplus
 extern "C" {

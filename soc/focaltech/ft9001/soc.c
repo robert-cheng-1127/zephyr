@@ -23,6 +23,8 @@ void soc_early_init_hook(void)
 	__ISB(); /* Ensure new vector table is used immediately */
 #endif
 
+	SystemInit();
+
 #ifdef CONFIG_XIP
 	xip_clock_switch(1);
 #endif
